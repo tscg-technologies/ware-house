@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warehouse Facilities | Spatial Architecture &amp; Zonation</title>
+  <meta name="description" content="Explore illustrative warehouse facility categories, interactive architectural floor plans, high-bay storage racks, and receiving and dispatch zones.">
+  <meta property="og:title" content="Warehouse Facilities — Architectural Zonation &amp; Layout">
+  <meta property="og:description" content="Explore organized spatial warehouse layouts designed around the fluid movement of goods.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/facility-general-warehouse.jpeg">
+  <link rel="canonical" href="https://demo.example.com/warehouse-company/facilities.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+    <!-- ==================== 1. PREMIUM NAVIGATION ==================== -->
+  <header class="site-header" role="banner">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link" aria-label="Warehouse and Storage Solutions Home">
+        <svg class="brand-symbol" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M4 22L22 6L40 22V38H4V22Z" stroke="#2869A6" stroke-width="2.5" stroke-linejoin="round"/>
+          <path d="M14 19V38M22 14V38M30 19V38" stroke="#37C5DF" stroke-width="2" stroke-linecap="round"/>
+          <path d="M4 27H40M4 33H40" stroke="rgba(229, 234, 240, 0.4)" stroke-width="1.5"/>
+          <path d="M10 33L22 25L34 33" stroke="#F29A38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="22" cy="25" r="3" fill="#F29A38"/>
+        </svg>
+        <div class="brand-text-block">
+          <span class="brand-title">WAREHOUSE &amp; STORAGE SOLUTIONS</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+    <!-- Mobile Drawer -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-links">
+      <a href="index.html" class="mobile-link">Home <span>&rarr;</span></a>
+      <a href="about.html" class="mobile-link">About Us <span>&rarr;</span></a>
+      <a href="services.html" class="mobile-link">Services <span>&rarr;</span></a>
+      <a href="contact.html" class="mobile-link">Contact <span>&rarr;</span></a>
+    </div>
+    <div class="mobile-drawer-footer">
+      <a href="contact.html" class="btn btn-orange" style="width: 100%;">Request Storage Space</a>
+    </div>
+  </div>
+
+  <main id="main-content">
+
+    <!-- Facilities Hero -->
+    <section class="section-padding bg-midnight" style="padding-top: calc(var(--header-height) + 4rem);" aria-labelledby="facilities-hero-title">
+      <div class="container">
+        <div style="max-width: 860px;">
+          <span class="text-technical reveal">Industrial Architecture</span>
+          <h1 id="facilities-hero-title" class="heading-editorial reveal reveal-delay-1" style="margin: 0.75rem 0 1.5rem;">
+            DESIGNED AROUND THE MOVEMENT OF GOODS.
+          </h1>
+          <p class="text-lead reveal reveal-delay-2">
+            Explore illustrative facility layouts engineered to balance storage density with operational throughput. Every aisle, staging apron, and loading aperture is planned for material handling efficiency.
+          </p>
+        </div>
+
+        <div class="demo-banner reveal reveal-delay-3" style="margin-top: 2rem;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <span>ILLUSTRATIVE WAREHOUSE LAYOUT — NOT AN ACTUAL FACILITY PLAN. Facility specifications are customized during commercial contracting based on regional infrastructure and client requirements.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE WAREHOUSE FLOOR PLAN (SIGNATURE FEATURE) -->
+    <section class="section-padding-sm bg-deep" aria-labelledby="interactive-plan-heading">
+      <div class="container">
+        <div style="margin-bottom: 2rem;" class="reveal">
+          <span class="text-technical text-technical--orange">Interactive Floor Plan Architecture</span>
+          <h2 id="interactive-plan-heading" class="heading-section" style="margin-top: 0.5rem;">
+            Explore Warehouse Zones &amp; Workflows
+          </h2>
+          <p class="text-muted">
+            Click any zone on the technical floor plan or choose a section from the legend below to view handling characteristics and equipment profiles.
+          </p>
+        </div>
+
+        <div class="floorplan-wrapper reveal">
+          <div class="floorplan-layout">
+            <!-- SVG Floor Plan -->
+            <div class="floorplan-svg-container">
+              <svg viewBox="0 0 760 480" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" aria-label="Interactive Warehouse Floor Plan">
+                <defs>
+                  <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <line x1="0" y1="0" x2="20" y2="0" stroke="rgba(55,197,223,0.06)" stroke-width="1"/>
+                    <line x1="0" y1="0" x2="0" y2="20" stroke="rgba(55,197,223,0.06)" stroke-width="1"/>
+                  </pattern>
+                </defs>
+
+                <!-- Background Blueprint Grid -->
+                <rect width="760" height="480" fill="#0d1723"/>
+                <rect width="760" height="480" fill="url(#gridPattern)"/>
+
+                <!-- Warehouse Outer Perimeter Wall -->
+                <rect x="20" y="20" width="720" height="440" fill="none" stroke="#2869A6" stroke-width="3" stroke-dasharray="8 4"/>
+
+                <!-- Zone 1: Inbound Receiving Dock -->
+                <g class="plan-zone zone-orange" data-zone="receiving" tabindex="0" role="button" aria-label="Inbound Receiving and Unloading Zone">
+                  <rect x="40" y="40" width="200" height="120" rx="4"/>
+                  <text x="140" y="95" text-anchor="middle">RECEIVING &amp; UNLOADING</text>
+                  <text x="140" y="115" text-anchor="middle" font-size="9" fill="#F29A38">[ZONE 01 &bull; INBOUND]</text>
+                  <!-- Dock Leveler Symbols -->
+                  <rect x="40" y="45" width="8" height="25" fill="#F29A38"/>
+                  <rect x="40" y="85" width="8" height="25" fill="#F29A38"/>
+                  <rect x="40" y="125" width="8" height="25" fill="#F29A38"/>
+                </g>
+
+                <!-- Zone 2: QC & Staging -->
+                <g class="plan-zone" data-zone="inspection" tabindex="0" role="button" aria-label="Inspection and Quality Verification Zone">
+                  <rect x="260" y="40" width="200" height="120" rx="4"/>
+                  <text x="360" y="95" text-anchor="middle">QC &amp; INSPECTION</text>
+                  <text x="360" y="115" text-anchor="middle" font-size="9" fill="#37C5DF">[ZONE 02 &bull; VERIFICATION]</text>
+                </g>
+
+                <!-- Zone 4: Bulk & Floor Staging Area -->
+                <g class="plan-zone" data-zone="bulk-storage" tabindex="0" role="button" aria-label="Bulk and Oversized Floor Storage Area">
+                  <rect x="480" y="40" width="240" height="120" rx="4"/>
+                  <text x="600" y="95" text-anchor="middle">BULK STORAGE APARTURE</text>
+                  <text x="600" y="115" text-anchor="middle" font-size="9" fill="#37C5DF">[ZONE 04 &bull; HEAVY STAGING]</text>
+                </g>
+
+                <!-- Zone 3: High-Bay Pallet Racks (Core Storage) -->
+                <g class="plan-zone is-active" data-zone="storage-highrack" tabindex="0" role="button" aria-label="High Bay Storage Racks Zone">
+                  <rect x="40" y="180" width="420" height="150" rx="4"/>
+                  <!-- Rack Aisle Indicators -->
+                  <line x1="60" y1="210" x2="440" y2="210" stroke="rgba(55,197,223,0.3)" stroke-width="3"/>
+                  <line x1="60" y1="240" x2="440" y2="240" stroke="rgba(55,197,223,0.3)" stroke-width="3"/>
+                  <line x1="60" y1="270" x2="440" y2="270" stroke="rgba(55,197,223,0.3)" stroke-width="3"/>
+                  <line x1="60" y1="300" x2="440" y2="300" stroke="rgba(55,197,223,0.3)" stroke-width="3"/>
+                  <text x="250" y="250" text-anchor="middle" font-size="14">HIGH-BAY STORAGE RACKS</text>
+                  <text x="250" y="270" text-anchor="middle" font-size="9" fill="#37C5DF">[ZONE 03 &bull; HIGH-DENSITY APR PALLET BAYS]</text>
+                </g>
+
+                <!-- Zone 5: Order Picking & Consolidation -->
+                <g class="plan-zone" data-zone="picking" tabindex="0" role="button" aria-label="Order Picking Zone">
+                  <rect x="480" y="180" width="240" height="150" rx="4"/>
+                  <text x="600" y="250" text-anchor="middle">ORDER PICKING ZONE</text>
+                  <text x="600" y="270" text-anchor="middle" font-size="9" fill="#37C5DF">[ZONE 05 &bull; WAVE PICK CELLS]</text>
+                </g>
+
+                <!-- Zone 6: Packing & Value-Added Station -->
+                <g class="plan-zone" data-zone="packing" tabindex="0" role="button" aria-label="Packaging and Kitting Workstations">
+                  <rect x="40" y="350" width="310" height="90" rx="4"/>
+                  <text x="195" y="395" text-anchor="middle">PACKING &amp; KITTING HUB</text>
+                  <text x="195" y="415" text-anchor="middle" font-size="9" fill="#37C5DF">[ZONE 06 &bull; PACKAGING CELLS]</text>
+                </g>
+
+                <!-- Zone 7: Outbound Dispatch & Truck Staging -->
+                <g class="plan-zone zone-orange" data-zone="dispatch" tabindex="0" role="button" aria-label="Outbound Dispatch and Loading Docks">
+                  <rect x="370" y="350" width="350" height="90" rx="4"/>
+                  <text x="545" y="395" text-anchor="middle">OUTBOUND DISPATCH &amp; LOADING</text>
+                  <text x="545" y="415" text-anchor="middle" font-size="9" fill="#F29A38">[ZONE 07 &bull; CARRIER DEPARTURE APRON]</text>
+                  <!-- Dock Doors -->
+                  <rect x="712" y="365" width="8" height="25" fill="#F29A38"/>
+                  <rect x="712" y="405" width="8" height="25" fill="#F29A38"/>
+                </g>
+              </svg>
+
+              <!-- Legend Quick Jump Buttons -->
+              <div class="floorplan-legend">
+                <button class="legend-btn" data-zone="receiving">01 Inbound Dock</button>
+                <button class="legend-btn" data-zone="inspection">02 Inspection / QC</button>
+                <button class="legend-btn is-active" data-zone="storage-highrack">03 High-Bay Racks</button>
+                <button class="legend-btn" data-zone="bulk-storage">04 Bulk Staging</button>
+                <button class="legend-btn" data-zone="picking">05 Picking Hub</button>
+                <button class="legend-btn" data-zone="packing">06 Packing Cells</button>
+                <button class="legend-btn" data-zone="dispatch">07 Outbound Docks</button>
+              </div>
+            </div>
+
+            <!-- Dynamic Inspector Panel -->
+            <div id="floorplan-details" class="floorplan-info-panel">
+              <!-- Dynamically populated by js/warehouse-layout.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE STORAGE RACK VISUALIZATION (SIGNATURE FEATURE) -->
+    <section class="section-padding bg-midnight" aria-labelledby="rack-system-title">
+      <div class="container">
+        <div class="grid-split">
+          <div class="reveal">
+            <span class="text-technical">Micro-Location Technology</span>
+            <h2 id="rack-system-title" class="heading-section" style="margin-top: 0.5rem;">
+              Interactive High-Bay Rack Selector
+            </h2>
+            <p class="text-lead" style="margin-bottom: 1.5rem;">
+              Storage racks operate on discrete coordinates: Bay, Level, and Depth. Select any bay below to inspect simulated pallet slot telemetry.
+            </p>
+
+            <div id="rack-inspector-info" style="margin-top: 1.5rem;">
+              <div class="telemetry-item" style="border-color: var(--electric-cyan);">
+                <div class="telemetry-label">Selected Bay</div>
+                <div class="telemetry-val telemetry-val--cyan">BAY A-01 (ACTIVE)</div>
+                <p style="font-size:0.8rem; color:var(--mid-grey); margin-top:4px;">
+                  Status: <strong>Stored</strong> &bull; Item: <strong>SKU-1001</strong> &bull; Load: <strong>420 kg</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive CSS/HTML Rack Structure -->
+          <div class="reveal reveal-delay-2">
+            <div class="rack-grid-container">
+              <div class="rack-cell is-selected status-occupied" data-code="BAY A-01" data-status="Occupied" data-sku="SKU-1001" data-weight="420 kg">
+                <span class="rack-pos-code">A-01</span>
+                <span class="rack-pos-status" style="color:var(--electric-cyan);">Occupied</span>
+              </div>
+              <div class="rack-cell status-active" data-code="BAY A-02" data-status="In Picking" data-sku="SKU-1008" data-weight="380 kg">
+                <span class="rack-pos-code">A-02</span>
+                <span class="rack-pos-status" style="color:var(--industrial-orange);">Picking</span>
+              </div>
+              <div class="rack-cell status-available" data-code="BAY A-03" data-status="Available" data-sku="EMPTY BAY" data-weight="0 kg">
+                <span class="rack-pos-code">A-03</span>
+                <span class="rack-pos-status" style="color:#10b981;">Empty</span>
+              </div>
+              <div class="rack-cell status-occupied" data-code="BAY A-04" data-status="Occupied" data-sku="SKU-1004" data-weight="150 kg">
+                <span class="rack-pos-code">A-04</span>
+                <span class="rack-pos-status" style="color:var(--electric-cyan);">Occupied</span>
+              </div>
+
+              <div class="rack-cell status-occupied" data-code="BAY B-01" data-status="Occupied" data-sku="SKU-1003" data-weight="680 kg">
+                <span class="rack-pos-code">B-01</span>
+                <span class="rack-pos-status" style="color:var(--electric-cyan);">Occupied</span>
+              </div>
+              <div class="rack-cell status-active" data-code="BAY B-02" data-status="In Picking" data-sku="SKU-1002" data-weight="210 kg">
+                <span class="rack-pos-code">B-02</span>
+                <span class="rack-pos-status" style="color:var(--industrial-orange);">Picking</span>
+              </div>
+              <div class="rack-cell status-occupied" data-code="BAY B-03" data-status="Inbound Putaway" data-sku="SKU-1006" data-weight="540 kg">
+                <span class="rack-pos-code">B-03</span>
+                <span class="rack-pos-status" style="color:var(--electric-cyan);">Staged</span>
+              </div>
+              <div class="rack-cell status-available" data-code="BAY B-04" data-status="Available" data-sku="EMPTY BAY" data-weight="0 kg">
+                <span class="rack-pos-code">B-04</span>
+                <span class="rack-pos-status" style="color:#10b981;">Empty</span>
+              </div>
+            </div>
+            <div style="font-family:var(--font-mono); font-size:0.72rem; color:var(--mid-grey); text-align:center; margin-top:0.75rem;">
+              Click rack cells to inspect slot allocation
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facility Categories Showcase (8 Categories) -->
+    <section class="section-padding bg-deep" aria-labelledby="facility-categories-heading">
+      <div class="container">
+        <div style="margin-bottom: 3rem;" class="reveal">
+          <span class="text-technical">Facility Portfolio</span>
+          <h2 id="facility-categories-heading" class="heading-section" style="margin-top: 0.5rem;">
+            Illustrative Facility Categories
+          </h2>
+          <p class="text-lead">
+            Categorized warehouse configurations structured for distinct commercial storage profiles.
+          </p>
+        </div>
+
+        <div class="grid-4">
+          <!-- Card 1 -->
+          <article class="service-card reveal">
+            <div class="service-card-media">
+              <!-- Image: images/facility-general-warehouse.jpeg -->
+              <div class="img-container aspect-16-9">
+  <img src="images/facility-general-warehouse.jpeg" alt="General storage commercial warehouse building interior" loading="lazy">
+</div>
+            </div>
+            <span class="service-category">Facility 01</span>
+            <h3 class="heading-card" style="margin-bottom: 0.5rem;">General Storage Warehouse</h3>
+            <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 1rem;">
+              Standard dry industrial storage for crated goods, finished inventory, and carton reserves.
+            </p>
+            <a href="contact.html?type=General%20Storage" class="service-card-link">Enquire <span>&rarr;</span></a>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-card-media">
+              <!-- Image: images/facility-high-rack-storage.jpeg -->
+              <div class="img-container aspect-16-9">
+  <img src="images/facility-high-rack-storage.jpeg" alt="High-rack storage system with narrow aisle forklift guidance" loading="lazy">
+</div>
+            </div>
+            <span class="service-category">Facility 02</span>
+            <h3 class="heading-card" style="margin-bottom: 0.5rem;">High-Rack Storage</h3>
+            <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 1rem;">
+              High vertical cubic density designed for multi-tier reach-truck operations and pallet slotting.
+            </p>
+            <a href="contact.html?type=Pallet%20Storage" class="service-card-link">Enquire <span>&rarr;</span></a>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card reveal reveal-delay-2">
+            <div class="service-card-media">
+              <!-- Image: images/facility-pallet-area.jpeg -->
+              <div class="img-container aspect-16-9">
+  <img src="images/facility-pallet-area.jpeg" alt="Designated pallet storage area with organized floor markings" loading="lazy">
+</div>
+            </div>
+            <span class="service-category">Facility 03</span>
+            <h3 class="heading-card" style="margin-bottom: 0.5rem;">Pallet Storage Area</h3>
+            <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 1rem;">
+              Standardized EUR and ISO pallet positions with clear aisle clearances and barrier protection.
+            </p>
+            <a href="contact.html?type=Pallet%20Storage" class="service-card-link">Enquire <span>&rarr;</span></a>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="service-card reveal reveal-delay-3">
+            <div class="service-card-media">
+              <!-- Image: images/facility-bulk-area.jpeg -->
+              <div class="img-container aspect-16-9">
+  <img src="images/facility-bulk-area.jpeg" alt="Expansive floor bulk storage area for heavy industrial machinery" loading="lazy">
+</div>
+            </div>
+            <span class="service-category">Facility 04</span>
+            <h3 class="heading-card" style="margin-bottom: 0.5rem;">Bulk Storage Area</h3>
+            <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 1rem;">
+              Heavy-duty floor footprint for oversized freight, machinery, and non-standard cargo profiles.
+            </p>
+            <a href="contact.html?type=Bulk%20Storage" class="service-card-link">Enquire <span>&rarr;</span></a>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="service-card reveal">
+            <div class="service-card-media">
+              <!-- Image: images/facility-receiving-unloading.jpeg -->
+              <div class="img-container aspect-16-9">
+  <img src="images/facility-receiving-unloading.jpeg" alt="Receiving dock with hydraulic dock leveler and offloading trailers" loading="lazy">
+</div>
+            </div>
+            <span class="service-category">Facility 05</span>
+            <h3 class="heading-card" style="margin-bottom: 0.5rem;">Receiving &amp; Unloading Zone</h3>
+            <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 1rem;">
+              Enclosed docking aprons equipped with levelers for rapid container offloading and intake verification.
+            </p>
+            <a href="contact.html?type=Inventory%20Handling" class="service-card-link">Enquire <span>&rarr;</span></a>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-card-media">
+              <!-- Image: images/facility-picking-packing.jpeg -->
+              <div class="img-container aspect-16-9">
+  <img src="images/facility-picking-packing.jpeg" alt="Ergonomic picking and packing station with conveyors" loading="lazy">
+</div>
+            </div>
+            <span class="service-category">Facility 06</span>
+            <h3 class="heading-card" style="margin-bottom: 0.5rem;">Picking &amp; Packing Area</h3>
+            <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 1rem;">
+              Well-lit ergonomic assembly cells with barcode verification terminals and packing dispensers.
+            </p>
+            <a href="contact.html?type=Pick%20%26%20Pack" class="service-card-link">Enquire <span>&rarr;</span></a>
+          </article>
+
+          <!-- Card 7 -->
+          <article class="service-card reveal reveal-delay-2">
+            <div class="service-card-media">
+              <!-- Image: images/facility-dispatch-loading.jpeg -->
+              <div class="img-container aspect-16-9">
+  <img src="images/facility-dispatch-loading.jpeg" alt="Outbound dispatch loading bay with roll-up doors" loading="lazy">
+</div>
+            </div>
+            <span class="service-category">Facility 07</span>
+            <h3 class="heading-card" style="margin-bottom: 0.5rem;">Dispatch &amp; Loading Zone</h3>
+            <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 1rem;">
+              Outbound staging bays organized by carrier linehauls for efficient truck loading.
+            </p>
+            <a href="contact.html?type=Distribution%20%26%20Dispatch" class="service-card-link">Enquire <span>&rarr;</span></a>
+          </article>
+
+          <!-- Card 8 -->
+          <article class="service-card reveal reveal-delay-3" style="border-color: rgba(55, 197, 223, 0.3);">
+            <div class="service-card-media">
+              <!-- Image: images/facility-temperature-concept.jpeg -->
+              <div class="img-container aspect-16-9">
+  <img src="images/facility-temperature-concept.jpeg" alt="Conceptual climate controlled storage room with monitoring sensors" loading="lazy">
+</div>
+            </div>
+            <span class="service-category">Facility 08</span>
+            <h3 class="heading-card" style="margin-bottom: 0.5rem;">Temperature Concept</h3>
+            <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 1rem;">
+              Conceptual climate-monitored space subject to verified capability and compliance agreements.
+            </p>
+            <a href="contact.html?type=Temperature-Controlled%20Storage%20Enquiry" class="service-card-link" style="color:var(--electric-cyan);">Specialist Enquiry <span>&rarr;</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facility Specification Framework (B2B Planning Panel) -->
+    <section class="section-padding bg-bright" aria-labelledby="specs-panel-heading">
+      <div class="container">
+        <div style="max-width: 820px; margin: 0 auto; text-align: center; margin-bottom: 3.5rem;" class="reveal">
+          <span class="text-technical">Engineering Framework</span>
+          <h2 id="specs-panel-heading" class="heading-section" style="margin-top: 0.5rem; color: var(--midnight-navy);">
+            Facility Specification Planning Panel
+          </h2>
+          <p class="text-lead" style="color: #334155; margin: 0 auto;">
+            During B2B onboarding, each prospective inventory engagement is evaluated across fundamental operational criteria to verify physical alignment.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div style="background: #ffffff; padding: 1.75rem; border-radius: var(--radius-sm); border: 1px solid var(--light-grey);" class="reveal">
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--warehouse-blue); font-weight: 700;">SPECIFICATION 01</span>
+            <h3 style="font-size: 1.15rem; color: var(--midnight-navy); margin: 0.5rem 0;">Storage Configuration</h3>
+            <p style="font-size: 0.88rem; color: #475569; margin-bottom: 1rem;">Pallet racking (APR), floor block stacking, or shelf bin allocation.</p>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; background: var(--light-grey); padding: 3px 8px; border-radius: 3px; color: var(--midnight-navy);">Parameter: Confirmed per scope</span>
+          </div>
+
+          <div style="background: #ffffff; padding: 1.75rem; border-radius: var(--radius-sm); border: 1px solid var(--light-grey);" class="reveal reveal-delay-1">
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--warehouse-blue); font-weight: 700;">SPECIFICATION 02</span>
+            <h3 style="font-size: 1.15rem; color: var(--midnight-navy); margin: 0.5rem 0;">Handling Equipment</h3>
+            <p style="font-size: 0.88rem; color: #475569; margin-bottom: 1rem;">Reach trucks, counterbalance forklifts, and powered pallet movers.</p>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; background: var(--light-grey); padding: 3px 8px; border-radius: 3px; color: var(--midnight-navy);">Parameter: Matched to freight</span>
+          </div>
+
+          <div style="background: #ffffff; padding: 1.75rem; border-radius: var(--radius-sm); border: 1px solid var(--light-grey);" class="reveal reveal-delay-2">
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--warehouse-blue); font-weight: 700;">SPECIFICATION 03</span>
+            <h3 style="font-size: 1.15rem; color: var(--midnight-navy); margin: 0.5rem 0;">Dock &amp; Access Doors</h3>
+            <p style="font-size: 0.88rem; color: #475569; margin-bottom: 1rem;">Hydraulic levelers accommodating standard shipping containers and linehaul trucks.</p>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; background: var(--light-grey); padding: 3px 8px; border-radius: 3px; color: var(--midnight-navy);">Parameter: Scheduled slots</span>
+          </div>
+
+          <div style="background: #ffffff; padding: 1.75rem; border-radius: var(--radius-sm); border: 1px solid var(--light-grey);" class="reveal">
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--warehouse-blue); font-weight: 700;">SPECIFICATION 04</span>
+            <h3 style="font-size: 1.15rem; color: var(--midnight-navy); margin: 0.5rem 0;">Aisle Width Dimensions</h3>
+            <p style="font-size: 0.88rem; color: #475569; margin-bottom: 1rem;">Calibrated for reach-truck turning radiuses with dedicated pedestrian walkways.</p>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; background: var(--light-grey); padding: 3px 8px; border-radius: 3px; color: var(--midnight-navy);">Parameter: Safety marked</span>
+          </div>
+
+          <div style="background: #ffffff; padding: 1.75rem; border-radius: var(--radius-sm); border: 1px solid var(--light-grey);" class="reveal reveal-delay-1">
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--warehouse-blue); font-weight: 700;">SPECIFICATION 05</span>
+            <h3 style="font-size: 1.15rem; color: var(--midnight-navy); margin: 0.5rem 0;">Floor Loading Tolerances</h3>
+            <p style="font-size: 0.88rem; color: #475569; margin-bottom: 1rem;">Reinforced concrete slab engineering supporting heavy industrial point loads.</p>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; background: var(--light-grey); padding: 3px 8px; border-radius: 3px; color: var(--midnight-navy);">Parameter: Load certified</span>
+          </div>
+
+          <div style="background: #ffffff; padding: 1.75rem; border-radius: var(--radius-sm); border: 1px solid var(--light-grey);" class="reveal reveal-delay-2">
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--warehouse-blue); font-weight: 700;">SPECIFICATION 06</span>
+            <h3 style="font-size: 1.15rem; color: var(--midnight-navy); margin: 0.5rem 0;">Security &amp; Surveillance</h3>
+            <p style="font-size: 0.88rem; color: #475569; margin-bottom: 1rem;">Continuous digital CCTV monitoring across perimeter, docks, and interior aisles.</p>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; background: var(--light-grey); padding: 3px 8px; border-radius: 3px; color: var(--midnight-navy);">Parameter: 24/7 Monitored</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="section-padding bg-midnight" style="border-top: 1px solid var(--dark-border);">
+      <div class="container" style="text-align: center; max-width: 800px;">
+        <span class="text-technical text-technical--orange reveal">Facility Consultation</span>
+        <h2 class="heading-section reveal reveal-delay-1" style="margin-top: 0.75rem; margin-bottom: 1.25rem;">
+          MATCH YOUR FREIGHT TO THE RIGHT FACILITY.
+        </h2>
+        <p class="text-lead reveal reveal-delay-2" style="margin: 0 auto 2.5rem;">
+          Our facility engineers review storage density requirements, pallet dimensions, and handling velocities to configure suitable space.
+        </p>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem;" class="reveal reveal-delay-3">
+          <a href="contact.html" class="btn btn-orange">Request a Warehouse Quote</a>
+          <a href="technology.html" class="btn btn-outline">Explore WMS Technology</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link" style="margin-bottom: 1rem;">
+            <svg class="brand-symbol" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 22L22 6L40 22V38H4V22Z" stroke="#2869A6" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M14 19V38M22 14V38M30 19V38" stroke="#37C5DF" stroke-width="2" stroke-linecap="round"/>
+              <path d="M4 27H40M4 33H40" stroke="rgba(229, 234, 240, 0.4)" stroke-width="1.5"/>
+              <path d="M10 33L22 25L34 33" stroke="#F29A38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="22" cy="25" r="3" fill="#F29A38"/>
+            </svg>
+            <div class="brand-text-block">
+              <span class="brand-title">WAREHOUSE &amp; STORAGE SOLUTIONS</span>
+            </div>
+          </a>
+          <p>
+            Modern commercial warehousing, organized stock handling, and dependable logistics infrastructure engineered for growing businesses.
+          </p>
+          <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--electric-cyan);">
+            Portfolio Demo Website &bull; TSCG Technologies
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="services.html" class="footer-link">Warehouse Services</a></li>
+            <li><a href="facilities.html" class="footer-link">Warehouse Facilities</a></li>
+            <li><a href="industries.html" class="footer-link">Industries Served</a></li>
+            <li><a href="technology.html" class="footer-link">Warehouse Technology</a></li>
+            <li><a href="contact.html" class="footer-link">Request a Quote</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#general" class="footer-link">General Warehousing</a></li>
+            <li><a href="services.html#pallet" class="footer-link">Pallet Storage</a></li>
+            <li><a href="services.html#bulk" class="footer-link">Bulk Storage</a></li>
+            <li><a href="services.html#inventory" class="footer-link">Inventory Handling</a></li>
+            <li><a href="services.html#fulfilment" class="footer-link">Pick &amp; Pack</a></li>
+            <li><a href="services.html#crossdock" class="footer-link">Cross-Docking</a></li>
+            <li><a href="services.html#temperature" class="footer-link">Temperature-Controlled (Enquiry)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Sample Office</h4>
+          <div style="font-size: 0.88rem; color: var(--mid-grey); line-height: 1.6; margin-bottom: 0.75rem;">
+            Plot No. 000, Demo Road, Sample Area,<br>
+            Hyderabad, Telangana &ndash; 000000.
+          </div>
+          <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--cool-white); margin-bottom: 0.5rem;">
+            Phone: 0000000000<br>
+            Email: demo@example.com
+          </div>
+          <div style="font-size: 0.8rem; color: var(--mid-grey);">
+            Hours: Monday&ndash;Saturday, 9 AM&ndash;6 PM
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span class="current-year">2026</span> Warehouse &amp; Storage Solutions. All rights reserved.
+        </div>
+        <div class="footer-disclosure">
+          * Illustrative demonstration project. Dummy contact information and fictional operational data.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/navigation.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/warehouse-layout.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
